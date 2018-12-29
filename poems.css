@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(60, 102, 60);
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(60, 102, 60);
+    font-size: 50pt;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(46, 46, 46);
+    padding-left: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 0;
+    font-weight: normal;
+    
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(46, 46, 46);
+
+}
+
+.main-wrapper {
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-top: 20px;
+    /* padding: 20px; */
+    background-color: seashell;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    /* background-color: rgb(172, 100, 82); */
+    width: 100%;
+    border-top: 1px dashed red;
+    border-bottom: 1px dashed red;
+    
+
+}
+
+.search-bar {
+    margin: 10px;
+    color: rgb(46, 46, 46);
+}
+
+.search-q {
+    margin: 5px;
+}
+
+#search-input {
+    width: 300px; 
+    font-size: 14px;
+    /* margin: 5px; */
+}
+
+#search-button {
+    width: 110px;
+    margin: 10px;
+}
+
+button {
+    /* border: none;
+    outline: none; 
+    background-color: */
+    color:  rgb(60, 102, 60);
+    height: 30px;
+    width: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+}
+
+button:hover {
+    color: red;
+}
+
+
+.poem-info {
+    margin: 10px;
+    display: inline-block;
+}
+
+.search-results {
+    margin: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.search-results > p {
+    margin-left: 20px;
+}
+
+
+h3 {
+   font-family: 'Amatic SC', cursive;
+   font-size: 18pt;
+   color: rgb(46, 46, 46);
+}
+
+.poems-by-author-container {
+    margin: 10px;
+}
+
+.poems-by-author:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.poem-title {
+    font-weight: bold;
+}
+
+.by {
+    margin-left: 10px;
+}
+
+.poem-lines-container {
+    margin: 10px;
+}
+
+.poem-lines {
+    margin: 5px;
+}
+
+
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'EB Garamond', serif; 
+font-family: 'Josefin Sans', sans-serif;*/
