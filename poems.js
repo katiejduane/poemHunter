@@ -1,8 +1,7 @@
 //next-steps:
 // and link poem titles to their full text, somehow? but then how to "get back" to search results?
 // OR add a CLICK function for titles to be clicked and for the array/lines to reveal below...? how??
-// refactor the code--i can't need 3 almost identical functions, one for each button, i feel like it could be an if statement or something along those lines 
-// error messages for not found (there are a lot, the database isn't very diverse)
+// refactor the code--i can't need 3 almost identical functions, one for each button, i feel like it could be an if statement or something along those lines???
 
 // variables for searching API
 let inputField = '';
@@ -46,7 +45,7 @@ $('#author').click(function () {
             // }
         
             // above i'm trying to figure out a way to add a click function to show the actual poem when clicked... 
-            // the loop isn't accessing the array, though, and a nested loop creates a massive amount of iterations...
+            // the separate loop isn't accessing the array, though, and a nested loop creates a massive amount of iterations that slows down the search/page load...
             newHTML += `</div>`
         
 
